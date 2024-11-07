@@ -20,7 +20,8 @@ public class ContactPage {
 	@FindBy(xpath="//img[@title='Create Contact...']")
 	private WebElement addContactIcon;
 	
-
+	@FindBy(xpath="//img[@title='Create Contact//...']")
+	private WebElement addContactIcon2;
 	
 
 	
