@@ -22,9 +22,10 @@ import com.vtiger.crm.generic.webdriverutility.WebDriverUtility;
 public class ContactTest extends BaseClass {
 
 	@Test(groups="smokeTesting")
-	public void createContactWithMandatoryFields() throws InterruptedException, IOException, ParseException {
+	public void createContactWithMandatoryFieldsTest() throws InterruptedException, IOException, ParseException {
 
 		int ran = js.getRandomeNumber();
+		System.out.println("testig");
 
 		String lastName = ex.getDataFromExcel("Sheet1", 1, 2) + ran;
 
@@ -44,7 +45,7 @@ public class ContactTest extends BaseClass {
 	}
 
 	@Test(groups="regressionTesting")
-	public void createContactWithOrg() throws IOException, ParseException, InterruptedException {
+	public void createContactWithOrgTest() throws IOException, ParseException, InterruptedException {
 
 		int ran = js.getRandomeNumber();
 
