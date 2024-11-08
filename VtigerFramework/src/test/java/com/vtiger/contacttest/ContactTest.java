@@ -25,6 +25,7 @@ public class ContactTest extends BaseClass {
 	public void createContactWithMandatoryFieldsTest() throws InterruptedException, IOException, ParseException {
 
 		int ran = js.getRandomeNumber();
+		System.out.println("testig");
 
 		String lastName = ex.getDataFromExcel("Sheet1", 1, 2) + ran;
 
